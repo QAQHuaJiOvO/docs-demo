@@ -30,7 +30,7 @@ export default defineConfig({
             {text:'silentConsole',link:'/wendang/notifier/aliapp/customize/silentconsole'},  
             {text:'metaData',link:'/wendang/notifier/aliapp/customize/metadata'},  
           ]},
-          {text:'API',link:'/wendang/notifer/aliapp//api/index',
+          {text:'API',link:'/wendang/notifier/aliapp//api/index',
             items:[
               {text:'init',link:'/wendang/notifier/aliapp/api/init'},
               {text:'test',link:'/wendang/notifier/aliapp/api/test'},
