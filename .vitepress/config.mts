@@ -16,6 +16,7 @@ export default defineConfig({
       {text:'JavaScript',link:'/wendang/notifier/javascript/index.md',
         items:[
           {text:'接入插件',link:'/wendang/notifier/javascript/integration/index',
+            collapsed: true,
             items:[
               {text:'NPM',link:'/wendang/notifier/javascript/integration/npm.md'},
               {text:'SetSystemInfo',link:'/wendang/notifier/javascript/integration/requirejs.md'},
@@ -25,6 +26,7 @@ export default defineConfig({
           {text:'测试插件',link:'/wendang/notifier/javascript/test.md'},
           {text:'录屏',link:'/wendang/notifier/javascript/revideo.md'},
           {text:'属性配置',link:'/wendang/notifier/javascript/customize/index.md',
+            collapsed: true,
             items:[
               {text:'Apikey',link:'/wendang/notifier/javascript/customize/apikey.md'},
               {text:'Appversion',link:'/wendang/notifier/javascript/customize/appversion.md'},
@@ -55,6 +57,7 @@ export default defineConfig({
             ]
           },
           {text:'API',link:'/wendang/notifier/javascript/api/index.md',
+            collapsed: true,
             items:[
               {text:'Init',link:'/wendang/notifier/javascript/api/init.md'},
               {text:'Test',link:'/wendang/notifier/javascript/api/test.md'},
